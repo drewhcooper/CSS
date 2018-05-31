@@ -2,14 +2,52 @@ h1,h2{
   background-color: #cccc99;
 }
 
+body{
+  /*Property: value */
+  background-color: #cccc99;
+  background-image: url(https://spaceplace.nasa.gov/templates/featured/space/galaxies300.png);
+}
+
+/* changes everything*/
+*{
+  color:White;
+}
+
 div{
   background-color: #ff0000;
 }
-
+/* id selector*/
 #content{
   background-color: #00ff00;
 }
-
+/* class selector*/
 .quotation{
   background-color: #0000ff;
+}
+
+/* descebdant selector */
+div p {
+  background-color: #ddddaa;
+}
+
+/* child selector*/
+div > p {
+  background-color: #ddddaa
+}
+
+/* attribute sleector*/
+img[alt=spacer]{
+  padding:0px;
+}
+
+/* psuedo class*/
+a:visited {color: #dddddd;}
+
+p
+{
+  font-size: 1.5em;
+  border-style: solid;
+  border-color: Black;
+  border-width: 2mm;
+  width: 50%;
 }
