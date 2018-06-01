@@ -6,12 +6,21 @@ body{
 p {
   background-color: Green;
 }
-/* Uses the last rule. this includes with multuple includes*/
-p {
-  background-color: Grey;
+
+#content
+{
+  background-color: Fuchsia;
+}
+
+div p
+{
+  background-color: Gray;
 }
 
 /*
 how to import CSS files
 @import url("old-stylesheet.css");
+
+for order use specifictiy rating id,class,subdivisions'
+inline style has the most prefrence
 */
