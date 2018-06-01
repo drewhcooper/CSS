@@ -3,3 +3,15 @@ body{
   /* would override all other stylesheet*/
   font-size: 80% !important;
 }
+p {
+  background-color: Green;
+}
+/* Uses the last rule. this includes with multuple includes*/
+p {
+  background-color: Grey;
+}
+
+/*
+how to import CSS files
+@import url("old-stylesheet.css");
+*/
