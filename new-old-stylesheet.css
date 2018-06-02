@@ -1,0 +1,59 @@
+/* ovverides default styles*/
+body{
+  /* would override all other stylesheet*/
+  font-size: 80% !important;
+}
+p {
+  background-color: Green;
+}
+
+#content
+{
+  background-color: Fuchsia;
+}
+
+div p
+{
+  background-color: Gray;
+}
+
+ul li
+{
+  background-color: Green;
+  /* This is the space between the text in the box and the boxs borders */
+  padding: 10px;
+  /* This is the space btween the box and other elements*/
+  border-style: double;
+  /*This is the border*/
+  margin: 20px 0 3px 0;
+  /*top right bottom left*/
+  border-bottom: 3px solid Red;
+  /*Width style color*/
+  text-align: center;
+}
+ul li:hover{
+  background-color: Blue;
+}
+
+
+ul li:nth-child(3)
+{
+display: none;
+/* removes the space it was given*/
+visibility: hidden;
+/* creates a "gap" where the element is */
+}
+/*
+how to import CSS files
+@import url("old-stylesheet.css");
+
+for order use specifictiy rating id,class,subdivisions'
+inline style has the most prefrence
+
+when top and bottom margins meet is uses the maximum
+
+width only counts the content area
+
+display inline makes it so they only have a new line when nessary
+inline block allows for width but puts them in one line
+*/

@@ -1,26 +1,32 @@
-/* ovverides default styles*/
+/* Sans-serif easier to read
+  Cursive  and fantasy may display differenetly
+  serif is for titles, has flair
+  monospace is good for text editors
+  text-indent moves the first line of text
+  letter-spacing and word-spacing is obvious
+  text-decoration for underline/strickthrough
+  text-align alligns the text
+  line-height is the space between lines
+*/
 body{
-  /* would override all other stylesheet*/
-  font-size: 80% !important;
+  /*font-family: sans-serif;*/
+  /*
+    font-style for italics
+    font-weight for bold
+    font-variant for case ex camel small-caps, ect
+  */
 }
-p {
-  background-color: Green;
+ul{
+  font-family: Arial, Helvetica, sans-serif;
+  font: 1.3em Georgia, "Times New Roman", serif;
+  /*size list in descending order of prefered fonts, font family backup*/
 }
-
-#content
-{
-  background-color: Fuchsia;
-}
-
-div p
-{
-  background-color: Gray;
-}
-
 /*
-how to import CSS files
-@import url("old-stylesheet.css");
+  position: relative allows for you to move elements on top of each other
+    then use top, bottom, left, and right
+  absolute will not move with the screen
+  fixed will move the element with the screen
 
-for order use specifictiy rating id,class,subdivisions'
-inline style has the most prefrence
+  images and divs use float to allow for wrapping
+  clear removes the float 
 */
